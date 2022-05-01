@@ -21,4 +21,27 @@ function buildTable(data){
             cell.text(val);
         });
     });
-}
+};
+
+function handleClick(){
+    //Get Datatime  value from filter
+    let data = d3.select("#datetime").property("value");
+    let filteredData = tableData;
+
+    //Check to see if a date was entered and filter data
+    // using that date
+    if (date){
+        // Apple filter to table data to only keep rows where
+        //the datetime value matches the filter value
+        filteredData = filteredData.filter(row => row.datetime === date);
+    };
+
+    //Rebuild the table using the filtered data
+    // If no date entered, filteredData will just be the original tableData
+    buildTable(filteredData);
+};
+// Attach an event to listen for the form button
+d3.selectAll("#filter-btn").on("click", handleClick);
+
+//Build the table when the page loads
+buildTable(tableData);
