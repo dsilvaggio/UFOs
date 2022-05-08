@@ -10,7 +10,7 @@
 ### Filtering the Table
   After loading the site, users then have the option to filter the table of data by the date, city, state, country, and shape. A filters table was added to the page. This table takes in user input, and then filters the data table based on the criteria given by the user. Here is what that data looks like to the user:
 
-![This is an image]()
+![This is an image](https://github.com/dsilvaggio/UFOs/blob/main/Resources/Screen%20Shot%202022-05-08%20at%209.18.05%20AM.png)
 
 Two functions were then created in our JavaScript file that allowed us to keep track of the filters being entered, and then filter the data table based on the different filter inputs. On the back end, our two functions are saving the element, value, and id of the variable that is being changed from the filter that is entered. It then loops through all the the filters that were saved and filters the data table on our page. On the front end, the user just needs to enter the filter criteria, and then hit the enter button on their computer. The table will the update based on the filters inputed from the user. An example of a filtered table is below.
 
