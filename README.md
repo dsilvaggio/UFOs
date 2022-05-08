@@ -18,5 +18,8 @@ Two functions were then created in our JavaScript file that allowed us to keep t
 
 ## Summary
 ### Drawbacks
-One drawback of this new design, is that the user would need to input all criteria with the exact same spelling and capitalization as the data in our file in order for the filter to keep that data in our table. For example, entering "US" instead of "us" for the country input gives the user a blank table. There is also no way to update the data in our table with more recent sightings since our data is linked to an actual file and not a frequenlty updated source such as a website. 
+One drawback of this new design, is that the user would need to input all criteria with the exact same spelling and capitalization as the data in our file in order for the filter to keep that data in our table. For example, entering "US" instead of "us" for the country input gives the user a blank table. There is also no way to update the data in our table with more recent sightings since our data is linked to an actual file and not a frequenlty updated source such as a website. We also removed the button for users to push to filter the data, but did not add any insructions that tells the user to press enter on their keyboard to filter the table.  
 ### Recommendations
+Two recommendations for further development of this site would be to:
+  1) Change the filtered inputs on the page to dropdown menu options to get rid of potential spelling or capitalization errors from the user. 
+  2) Add a button for users to push to filter the data table and a button for user to push that would reset all the filters. 
