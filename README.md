@@ -15,4 +15,8 @@
 Two functions were then created in our JavaScript file that allowed us to keep track of the filters being entered, and then filter the data table based on the different filter inputs. On the back end, our two functions are saving the element, value, and id of the variable that is being changed from the filter that is entered. It then loops through all the the filters that were saved and filters the data table on our page. On the front end, the user just needs to enter the filter criteria, and then hit the enter button on their computer. The table will the update based on the filters inputed from the user. An example of a filtered table is below.
 
 ![This is an image](https://github.com/dsilvaggio/UFOs/blob/main/Resources/Screen%20Shot%202022-05-08%20at%209.17.05%20AM.png)
+
 ## Summary
+### Drawbacks
+One drawback of this new design, is that the user would need to input all criteria with the exact same spelling and capitalization as the data in our file in order for the filter to keep that data in our table. For example, entering "US" instead of "us" for the country input gives the user a blank table. There is also no way to update the data in our table with more recent sightings since our data is linked to an actual file and not a frequenlty updated source such as a website. 
+### Recommendations
